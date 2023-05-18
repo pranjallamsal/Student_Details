@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="mydata.json">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Student Details</h1>
+        <p>May 2023</p>
+    </header>
+
+    <section>
+        <h2>Summary</h2>
+        <p>Details of students present in Globals School.</p>
+    </section>
+
+    <section>
+        <h2>Students</h2>
+        <label for="sectionFilter">Filter by Section:</label>
+        <select id="sectionFilter">
+            <option value="all">All</option>
+            <option value="A">Section A</option>
+            <option value="B">Section B</option>
+        </select>
+        <br>
+      <section>
+        <label for="standardFilter">Filter by Standard:</label>
+        <select id="standardFilter">
+            <option value="all">All</option>
+            <option value="Ten"> Ten</option>
+            <option value="One"> One</option>
+            <option value="Five"> Five</option>
+            <option value="Nursery"> Nursery</option>
+            <option value="two"> Two</option>
+            <option value="three"> Three</option>
+            <option value="Montessori"> Montessori</option>
+            <option value="kindergarten">Kindergarten</option>
+        </select>
+        <section>
+            <label for="FacultyFilter">Filter by Faculty:</label>
+            <select id="FacultyFilter">
+                <option value="all">All</option>
+                <option value="Chetan Sir">Chetan Sir</option>
+                <option value="Suhas Sir">Suhas Sir</option>
+                <option value="Ganendar Sir">Ganendar Sir</option>
+            </select>
+            <br>
+            <br>
+        <table id="tblstudent_details">
+            <tr>
+                <th>SI. NO</th>
+                <th>Student Name</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Standard</th>
+                <th>Faculty</th>
+                <th>Section</th>
+                <th>Mobile</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sudhaker Swamy</td>
+                <td>Marathali</td>
+                <td>sudhaker@gmail.com</td>
+                <td>Ten</td>
+                <td>Chetan Sir</td>
+                <td>A</td>
+                <td>0000000000</td>  
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sathya</td>
+                <td>Tumkur</td>
+                <td>sathya@gmail.com</td>
+                <td>Five</td>
+                <td>Suhas Sir</td>
+                <td>A</td>
+                <td>0000000000</td> 
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Hajira</td>
+                <td>Freza Town</td>
+                <td>hajira@gmail.com</td>
+                <td>Nursery</td>
+                <td>Ganendar Sir</td>
+                <td>A</td>
+                <td>1212121212</td> 
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Surabhi</td>
+                <td>White Field</td>
+                <td>surabhi@gmail.com</td>
+                <td>One</td>
+                <td>Suhas Sir</td>
+                <td>A</td>
+                <td>0000000000</td> 
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Anjali</td>
+                <td>Church Street</td>
+                <td>anjali@gmail.com</td>
+                <td>two</td>
+                <td>Ganendar Sir</td>
+                <td>B</td>
+                <td>0000000000</td> 
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Vineeth</td>
+                <td>Rajajinagar</td>
+                <td>vineeth@gmail.com</td>
+                <td>kindergarten</td>
+                <td>Chetan Sir</td>
+                <td>B</td>
+                <td>0000000000</td> 
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Vinitha</td>
+                <td>Manyata</td>
+                <td>vinitha@gmail.com</td>
+                <td>three</td>
+                <td>Suhas Sir</td>
+                <td>A</td>
+                <td>0000000000</td> 
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Srinivas</td>
+                <td>Devinagar</td>
+                <td>srinivas@gmail.com</td>
+                <td>Montessori</td>
+                <td>Suhas Sir</td>
+                <td>B</td>
+                <td>0000000000</td> 
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Vijay</td>
+                <td>Belandur</td>
+                <td>vijay@gmail.com</td>
+                <td>Five</td>
+                <td>Suhas Sir</td>
+                <td>B</td>
+                <td>0000000000</td> 
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Murali</td>
+                <td>Gorguntepalya</td>
+                <td>murali@gmail.com</td>
+                <td>Five</td>
+                <td>Chetan Sir</td>
+                <td>B</td>
+                <td>0000000000</td> 
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Elango</td>
+                <td>Electronic City</td>
+                <td>murali@gmail.com</td>
+                <td>One</td>
+                <td>Ganendar Sir</td>
+                <td>B</td>
+                <td>0000000000</td> 
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Keshav</td>
+                <td>White House</td>
+                <td>Keshav@gmail.com</td>
+                <td>two</td>
+                <td>Chetan Sir</td>
+                <td>A</td>
+                <td>0000000000</td> 
+            </tr>
+        </table>
+    </section>
+</section>
+</section>
+
+    <section>
+        <h2>Student Performance </h2>
+        <canvas id="student-performance"></canvas>
+        <table>
+            <tr>
+                <th>Subject id</th>
+                <th>Subject Name</th>
+                <th>Student Name</th>
+                <th>Total Marks</th>
+                <th>Marks Obtained</th>
+                <th>Section</th>
+            </tr>
+           <tr>
+            <td>S1</td>
+            <td>Socials</td>
+            <td>Sudhaker</td>
+            <td>50</td>
+            <td>40</td>
+            <td>A</td>
+           </tr>
+           <tr>
+            <td>S2</td>
+            <td>Science</td>
+            <td>Sudhaker</td>
+            <td>50</td>
+            <td>30</td>
+            <td>A</td>
+           </tr>
+           <tr>
+            <td>S3</td>
+            <td>Maths</td>
+            <td>Sudhaker</td>
+            <td>50</td>
+            <td>25</td>
+            <td>A</td>
+           </tr>
+           <tr>
+            <td>S4</td>
+            <td>Computer</td>
+            <td>Sudhaker</td>
+            <td>50</td>
+            <td>35</td>
+            <td>A</td>
+           </tr>
+           <tr>
+            <td>S5</td>
+            <td>Cryptography</td>
+            <td>Sudhaker</td>
+            <td>50</td>
+            <td>22</td>
+            <td>A</td>
+           </tr>
+           <tr>
+            <td>S1</td>
+            <td>Socials</td>
+            <td>Vijay</td>
+            <td>50</td>
+            <td>22</td>
+            <td>B</td>
+           </tr>
+           <tr>
+            <td>S2</td>
+            <td>Science</td>
+            <td>Vijay</td>
+            <td>50</td>
+            <td>27</td>
+            <td>B</td>
+           </tr>
+           <tr>
+            <td>S3</td>
+            <td>Maths</td>
+            <td>Vijay</td>
+            <td>50</td>
+            <td>37</td>
+            <td>B</td>
+           </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; Pranjal lamsal</p>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+   
+const sectionFilter = document.getElementById('sectionFilter');
+const studentTable = document.getElementById('tblstudent_details');
+
+sectionFilter.addEventListener('change', () => {
+    const selectedSection = sectionFilter.value;
+
+    Array.from(studentTable.rows).forEach((row, index) => {
+        if (index === 0) return; 
+        const sectionCell = row.cells[6]; 
+        const isMatchingSection = selectedSection === 'all' || sectionCell.textContent === selectedSection;
+
+        row.style.display = isMatchingSection ? '' : 'none';
+    });
+});
+
+const standardFilter = document.getElementById("standardFilter");
+
+standardFilter.addEventListener("change", () => {
+  const standard = standardFilter.value;
+  const table = document.getElementById("tblstudent_details");
+  const rows = table.getElementsByTagName("tr");
+
+  for (let i = 1; i < rows.length; i++) {
+    const standardCell = rows[i].getElementsByTagName("td")[4];
+    const display = standard === "all" || standard === standardCell.innerText;
+    rows[i].style.display = display ? "" : "none";
+  }
+});
+
+const facultyFilter = document.getElementById("FacultyFilter");
+
+facultyFilter.addEventListener("change", () => {
+  const faculty = facultyFilter.value;
+  const table = document.getElementById("tblstudent_details");
+  const rows = table.getElementsByTagName("tr");
+
+  for (let i = 1; i < rows.length; i++) {
+    const facultyCell = rows[i].getElementsByTagName("td")[5];
+    const display = faculty === "all" || faculty === facultyCell.innerText;
+    rows[i].style.display = display ? "" : "none";
+  }
+});
+
+    const salesByRegionCanvas = document.getElementById('student-performance');
+  
+    const chartData = {
+        labels: ['Section A','Section B'],
+        datasets: [{
+            label:'section-wise-performance',
+            data: [150, 0],
+            backgroundColor: ['#FFC0CB','#36a2eb'],
+            borderWidth: 1
+        }]
+    };
+
+    new Chart(salesByRegionCanvas, {
+        type:'bar',
+        data: chartData,
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
+

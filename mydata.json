@@ -1,0 +1,77 @@
+{
+    "students": [
+      {
+        "SI. NO": "1",
+        "Student Name": "Sudhaker Swamy",
+        "Address": "Marathali",
+        "Email": "sudhaker@gmail.com",
+        "Standard": "Ten",
+        "Section": "A",
+        "Mobile": "0000000000"
+      },
+      {
+        "SI. NO": "2",
+        "Student Name": "Sathya",
+        "Address": "Tumkur",
+        "Email": "sathya@gmail.com",
+        "Standard": "Five",
+        "Section": "B",
+        "Mobile": "0000000000"
+      },
+      {
+        "SI. NO": "3",
+        "Student Name": "Hajira",
+        "Address": "Freza Town",
+        "Email": "hajira@gmail.com",
+        "Standard": "Nursery",
+        "Section": "B",
+        "Mobile": "0000000000"
+      },
+      {
+        "SI. NO": "4",
+        "Student Name": "Surabhi",
+        "Address": "White Field",
+        "Email": "surabhi@gmail.com",
+        "Standard": "One",
+        "Section": "A",
+        "Mobile": "0000000000"
+      },
+      {
+        "SI. NO": "5",
+        "Student Name": "Anjali",
+        "Address": "Church Street",
+        "Email": "anjali@gmail.com",
+        "Standard": "two",
+        "Section": "A",
+        "Mobile": "0000000000"
+      },
+      {
+        "SI. NO": "6",
+        "Student Name": "Vineeth",
+        "Address": "United kingdom",
+        "Email": "vineeth@gmail.com",
+        "Standard": "University",
+        "Section": "A",
+        "Mobile": "0000000000"
+      },
+      {
+        "SI. NO": "7",
+        "Student Name": "Vinitha",
+        "Address": "Manyata",
+        "Email": "vinitha@gmail.com",
+        "Standard": "three",
+        "Section": "A",
+        "Mobile": "0000000000"
+      },
+      {
+        "SI. NO": "8",
+        "Student Name": "Srinivas",
+        "Address": "Rajajinagar",
+        "Email": "srinivas@gmail.com",
+        "Standard": "Seven",
+        "Section": "B",
+        "Mobile": "0000000000"
+      }
+    ]
+  }
+  
